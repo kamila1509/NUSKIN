@@ -8,6 +8,7 @@
 
     <title>NUSKIN</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Heebo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ed610d827f.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,18 +16,19 @@
 <body>
     <header class="nuskin-header">
         <div class="nuskin-header__bar">
-            <span>Peru(PE)|Español</span>
-            <span class="right">INSCRIBIRSE |INICIAR SESION</span>
+            <span class="bar1">Peru(PE)|Español</span>
+            <span class="bar2">INSCRIBIRSE /INICIAR SESION</span>
         </div>
         <nav class="nuskin-header__nav flex">
-            <div class="nav-left">
+            <div class=" nav-left flex">
                 <img src="img/nu.png" alt="">
             </div>
             <div class="nav-center">
                 <div class="search">
                     <i class="fas fa-search"></i>
                     <input type="search" placeholder="Buscar">
-                    <button>Buscar</button></div>
+                    <button>Buscar</button>
+                </div>
                 <div class="nav-center-bottom flex ">
                     <li>Conócenos</li>
                     <li>Adquiere</li>
@@ -34,7 +36,7 @@
                     <li>Unete al Equipo</li>
                 </div>
             </div>
-            <div class="nav-right">
+            <div class="nav-right flex">
                 <i class="fas fa-shopping-cart"></i>
             </div>
         </nav>
@@ -44,7 +46,7 @@
         <div class="slide">
             <div class="slide__list">
                 <div class="slide__item display--off" id="slide1">
-                    <div class="item__box">
+                    <div class="item__box left ">
                         <h1>Epoch Polishing Bar</h1>
                         <p>Exfolia tu piel mientras la limpia</p>
                         <button>Compra Ahora</button>
@@ -52,7 +54,7 @@
                 </div>
 
                 <div class="slide__item display--off" id="slide2">
-                    <div class="item__box">
+                    <div class="item__box right">
                         <h1>Celltrex Ultra Recovery Mask</h1>
                         <p>Recarga de energia tu piel despues de un dia excelente</p>
                         <button>Compra Ahora</button>
@@ -60,7 +62,7 @@
                 </div>
 
                 <div class="slide__item" id="slide3">
-                    <div class="item__box">
+                    <div class="item__box left">
                         <h1>Ultra Mask NuSkin</h1>
                         <p>Recarga de energia tu piel. Adiós.</p>
                         <button>Compra Ahora</button>
@@ -117,10 +119,10 @@
 
     </section>
 
-    <section class="way">
-        <h1>A la manera de Nu Skin</h1>
-        <div class="flex column color">
-            <div class="info reverse ">
+    <section class="nuskin-ourway">
+        <h1 class="nuskin-ourway__title">A la manera de Nu Skin</h1>
+        <div class="nuskin-ourway__content ">
+            <div class="nuskin-ourway__info reverse ">
 
 
                 <div class="img-resp">
@@ -137,11 +139,9 @@
                         descubrimientos una realidad a través de nuestros poderosos productos para el cuidado de la piel
                         y suplementos alimenticios.</p>
                 </div>
-
-
             </div>
 
-            <div class="info ">
+            <div class="nuskin-ourway__info ">
                 <div class="img-resp">
                     <img src="img/science_002.jpg" alt="Responsive image">
 
@@ -163,10 +163,6 @@
     </section>
 
     <section class="about flex ">
-
-
-
-
         <div class="card">
             <img src="img/change_the_world.jpg" alt="">
             <h4>Nuestra Compañia</h4>
@@ -177,9 +173,6 @@
             <a href="">Conozcanos</a>
         </div>
 
-
-
-
         <div class="card">
             <img src="img/culture.jpg" alt="">
             <h4>Nuestra Compañia</h4>
@@ -189,11 +182,7 @@
                 explicabo praesentium mollitia unde molestias iusto animi sint repudiandae ullam voluptas doloremque eos
                 laborum. Harum.</p>
             <a href="#">Explore Nuestros proyectos</a>
-
         </div>
-
-
-
 
         <div class="card">
             <img src="img/our_project.jpg" alt="">
@@ -204,12 +193,7 @@
                 explicabo praesentium mollitia unde molestias iusto animi sint repudiandae ullam voluptas doloremque eos
                 laborum. Harum.</p>
             <a href="#">Cominece Su Trayecto</a>
-
         </div>
-
-        </div>
-
-
     </section>
 
     <footer>
@@ -253,7 +237,8 @@
         </div>
 
         </div>
-    </footer>
+    </footer> 
+
 
     <script type="text/javascript" src="js/main.js"></script>
 </body>
